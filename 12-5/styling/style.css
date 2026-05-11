@@ -1,0 +1,28 @@
+h1{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+h1 span{
+    color: cyan;
+}
+
+h2{
+    background-color: purple;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+h3{
+    background-color: lightblue;
+    color: darkblue;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: underline;
+    padding: 10px;
+}
