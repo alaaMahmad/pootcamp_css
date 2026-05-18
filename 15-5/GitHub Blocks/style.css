@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 800px;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+img.size {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+}
+
+.row-one {
+    background-color: blue;
+    justify-content: space-around;
+}
+
+.row-two {
+    background-color: lightgreen;
+    justify-content: center;
+    gap: 50px; 
+}
+
+
+.row-three {
+    background-color:pink ;
+    justify-content: space-between;
+}
+
+.link {
+   
+    font-size: 15px;
+    color: black;
+}
+
+.link a {
+    color: darkblue;
+    text-decoration: underline;
+}
