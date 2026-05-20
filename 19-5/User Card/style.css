@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.container {
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    width: 650px;
+    margin-top: 120px;
+    
+}
+
+
+.banner {
+    background-color: #1da1b8;
+    height: 100px;
+    width: 100%;
+}
+
+.content {
+    padding: 60px 0 25px 25px;
+    position: relative;
+}
+
+
+
+
+.avatar-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top: -50px; 
+   
+}
+
+
+.name {
+    font-size: 35px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-size: 15px;
+    color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.tagline {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bio {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.edit {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+}
+
+.edit a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+.gear-icon {
+    color: darkblue;
+}
